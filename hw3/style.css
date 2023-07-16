@@ -62,6 +62,10 @@ a {
   border:#F25822
 }
 
+.button_start:hover {
+  background: #f66530;;
+}
+
 .button_watch {
   color: #AAA;
   font-size: 15px;
@@ -72,6 +76,9 @@ a {
   background-color: #fff;
 }
 
+.button_watch:hover {
+  color: rgb(139, 137, 137);
+}
 
 .top_logos {
   padding-top: 97px;
