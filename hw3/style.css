@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.header_link {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header_link_home {
+  color: #F25822;
+}
+
+.top_content {
+  margin-top: 84px;
+}
+
+.top_info_title {
+  margin-bottom: 17px;
+  color: #000;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.top_info_text {
+  color: #888;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.top_buttons {
+  margin-top: 37px;
+}
+
+.button_start {
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 50px;
+  background: #F25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  border:#F25822
+}
+
+.button_watch {
+  color: #AAA;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 0;
+  background-color: #fff;
+}
+
+
+.top_logos {
+  padding-top: 97px;
+  padding-bottom: 96px;
+  margin-top: 162px;
+}
