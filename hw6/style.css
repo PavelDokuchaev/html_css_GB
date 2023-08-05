@@ -53,6 +53,7 @@ img {
   margin-bottom: 65px;
   padding-left: calc(50% - 800px);
   padding-right: calc(50% - 800px);
+  max-height: 764px;
 }
 
 .cover_heading {
@@ -252,9 +253,10 @@ and (max-width: 1024px) {
     padding-left: calc(50% - 385px);
     padding-right: calc(50% - 385px);
     gap: 39px;
+    max-height: 368px;
   }
 
-    .cover_page_img {
+  .cover_page_img {
     width: 50%;
   }
 
