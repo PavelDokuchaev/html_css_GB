@@ -9,6 +9,10 @@ body {
   font-family: Lato;
 }
 
+img {
+  max-width: 100%;
+}
+
 .center {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
@@ -155,7 +159,7 @@ body {
 
 .main_content_product {
   display: grid;
-  grid-template-columns: repeat(3,360px);
+  grid-template-columns: repeat(3, 360px);
   gap: 30px;
   margin-bottom: 48px;
 }
@@ -220,36 +224,37 @@ body {
 
 .button_continue {
   color: #F26376;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background-color: #FFF;
-    border-color: #F26376;
-    padding: 15px 39px 14px 39px;
-    border-style: solid;
-    border-width: 1px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #FFF;
+  border-color: #F26376;
+  padding: 15px 39px 14px 39px;
+  border-style: solid;
+  border-width: 1px;
 }
 
 @media (min-width: 768px)
 and (max-width: 1024px) {
 
   .center {
-    padding-right: calc(50% - 384px);
-    padding-left: calc(50% - 384px);
+    padding-left: calc(50% - 368px);
+    padding-right: calc(50% - 368px);
+  }
+
+  .header{
+    padding-left: calc(50% - 352px);
+    padding-right: calc(50% - 352px);
   }
 
   .cover_page {
-    padding-right: calc(50% - 384px);
-    padding-left: calc(50% - 384px);
+    padding-left: calc(50% - 385px);
+    padding-right: calc(50% - 385px);
     gap: 39px;
   }
 
-  .cover_img {
-    max-width: 100%;
-  }
-
-  .cover_page_img {
+    .cover_page_img {
     width: 50%;
   }
 
@@ -271,22 +276,15 @@ and (max-width: 1024px) {
   }
 
   .content_promo {
-    display: grid;
-    grid-template-columns: repeat(3, 231px);
+    grid-template-columns: repeat(3, 232px);
     gap: 19px;
     margin-bottom: 96px;
   }
 
   .main_content_product {
-    display: grid;
     grid-template-columns: repeat(2,360px);
     gap: 16px;
     margin-bottom: 48px;
-    padding-left: 16px;
-  }
-
-  .promo_item_img {
-    width: 231px;
   }
 
   .promo_text {
@@ -296,6 +294,5 @@ and (max-width: 1024px) {
   .long_promo_text {
     margin-top: 33px;
   }
-
 
  }
