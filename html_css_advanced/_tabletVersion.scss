@@ -1,0 +1,114 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .center {
+    padding-left: calc(50% - 368px);
+    padding-right: calc(50% - 368px);
+  }
+
+  .header {
+    padding-left: calc(50% - 352px);
+    padding-right: calc(50% - 352px);
+  }
+
+  .cover_page {
+    padding-left: calc(50% - 384px);
+    padding-right: calc(50% - 384px);
+    gap: 39px;
+    max-height: 368px;
+  }
+
+  .cover_page_img {
+    width: 50%;
+  }
+
+  .cover_heading {
+    margin-top: 138px;
+    margin-bottom: 151px;
+  }
+
+  .cover_text_first {
+    font-size: 44px;
+  }
+
+  .cover_text_two {
+    font-size: 24px;
+  }
+
+  .cover_text_three {
+    font-size: 24px;
+  }
+
+  .content_promo {
+    grid-template-columns: repeat(3, 231px);
+    gap: 19px;
+    margin-bottom: 96px;
+  }
+
+  .main_content_product {
+    grid-template-columns: repeat(2, 360px);
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  .promo_text {
+    margin-top: 59px;
+  }
+
+  .long_promo_text {
+    margin-top: 33px;
+  }
+
+  .dark_desc {
+    padding-left: calc(50% - 180px);
+    padding-right: calc(50% - 180px);
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+
+  .dark_item {
+    width: 100%;
+  }
+
+  .prefooter {
+    padding-left: calc(50% - 180px);
+    padding-right: calc(50% - 180px);
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/prefooter_backg_tab.png);
+  }
+
+  .prefooter_desc {
+    margin-top: 64px;
+    width: 100%;
+  }
+
+  .prefooter_subs {
+    margin-top: 48px;
+    width: 100%;
+  }
+
+  .prefooter_desc_text {
+    margin-bottom: 0;
+  }
+
+  .prefooter_subs_text {
+    margin-bottom: 27px;
+  }
+
+  .prefooter_form {
+    margin-bottom: 140px;
+  }
+
+  .footer {
+    padding-left: calc(50% - 352px);
+    padding-right: calc(50% - 352px);
+    gap: 305px;
+  }
+
+  .left_footer {
+    min-width: 251px;
+  }
+}
