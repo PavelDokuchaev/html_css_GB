@@ -1,0 +1,248 @@
+.postheader {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #F8F3F4;
+
+  &__heading {
+    color: $colorSelectSite;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.cartmain {
+  margin-top: 96px;
+  margin-bottom: 128px;
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+
+    &-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      &_item {
+        display: flex;
+        position: relative;
+        box-shadow: (17px 19px 24px rgba(0, 0, 0, 0.13));
+
+        &-desc {
+          padding: 22px 97px 62px 31px;
+          display: flex;
+          flex-direction: column;
+          gap: 42px;
+
+          &-title {
+            max-width: 262px;
+            color: #222;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+
+          &-textblock {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+
+            p {
+              color: #575757;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+
+            &-red {
+              color: $colorSelectSite;
+            }
+
+            &-grey {
+              color: #6F6E6E;
+            }
+
+            &-input {
+              max-width: 44px;
+              margin-left: 24px;
+              padding-left: 16px;
+              color: #656565;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+        }
+
+        &-desc_button {
+          position: absolute;
+          top: 28px;
+          right: 22px;
+          border: none;
+          background: none;
+          cursor: pointer;
+          outline: none;
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            transform: scale(1.15);
+          }
+        }
+      }
+    }
+
+    &-buttons {
+      display: flex;
+      justify-content: space-between;
+
+      &_btn {
+        background: none;
+        border: 1px solid #A4A4A4;
+        padding: 17px 40px;
+        color: #000;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        cursor: pointer;
+        outline: none;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background: $colorSelectSite;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  &__right {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+
+    &_form {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+
+      &-title {
+        color: #222;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+
+      &-input {
+        width: 100%;
+        padding: 15px 15px;
+        color: #222;
+        font-family: Lato;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        border: 1px solid #A4A4A4;
+
+        &::placeholder {
+          color: #B1B1B1;
+        }
+      }
+
+      &-button {
+        padding: 11px 15px;
+        color: #4A4A4A;
+        font-family: Lato;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        background: none;
+        border: 1px solid #A4A4A4;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background-color: $colorSelectSite;
+          color: #fff;
+        }
+      }
+    }
+
+    &_total {
+      padding: 41px 43px;
+      background-color: #F5F3F3;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+
+      &-sub {
+        color: #4A4A4A;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 12px;
+
+        &_left {
+          margin-left: 25px;
+        }
+      }
+
+      &-grand {
+        color: #222;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 21px;
+
+        &_left {
+          margin-left: 25px;
+          color: $colorSelectSite;
+          font-weight: 700;
+        }
+      }
+
+      &-line {
+        width: 275px;
+        height: 1px;
+        background-color: #E2E2E2;
+        margin-bottom: 17px;
+      }
+
+      &-button {
+        background-color: $colorSelectSite;
+        color: #FFF;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding: 15px 42px;
+        border: none;
+        cursor: pointer;
+        width: 275px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background-color: #fff;
+          color: $colorSelectSite;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
