@@ -231,16 +231,16 @@
         font-style: normal;
         font-weight: 300;
         line-height: normal;
-        padding: 15px 42px;
-        border: none;
+        padding: 15px 40px;
+        border: 1px solid rgba(0, 0, 0, 0);
         cursor: pointer;
         width: 275px;
         transition: all 0.2s ease-in-out;
 
         &:hover {
-          background-color: #fff;
+          background: none;
           color: $colorSelectSite;
-          font-weight: 700;
+          border: 1px solid $colorSelectSite;
         }
       }
     }
