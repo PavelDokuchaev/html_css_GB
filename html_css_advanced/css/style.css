@@ -553,6 +553,132 @@ summary::-webkit-details-marker {
   border: 1px solid #F16D7F;
 }
 
+.registration {
+  padding-top: 64px;
+  display: flex;
+  gap: 128px;
+}
+.registration__left_title {
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.registration__left_input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registration__left_input-item {
+  width: 360px;
+  color: #222;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 15px 15px;
+  border: 1px solid #A4A4A4;
+}
+.registration__left_input-item::-moz-placeholder {
+  color: #B1B1B1;
+}
+.registration__left_input-item:-ms-input-placeholder {
+  color: #B1B1B1;
+}
+.registration__left_input-item::placeholder {
+  color: #B1B1B1;
+}
+.registration__left_gender {
+  margin-top: 31px;
+  margin-bottom: 33px;
+  color: #000;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration__left_gender input {
+  vertical-align: middle;
+  margin: -2px 10px 0 0;
+}
+.registration__left_gender label {
+  margin-right: 20px;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration__left_text {
+  color: #B1B1B1;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 39px;
+}
+.registration__left_button {
+  margin-bottom: 96px;
+  padding: 16px 29px;
+  color: #FFF;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #F16D7F;
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.registration__left_button:hover {
+  background: none;
+  color: #F16D7F;
+  border: 1px solid #F16D7F;
+}
+.registration__left_button:hover path {
+  fill: #F16D7F;
+}
+.registration__left_button-svg {
+  margin-left: 20px;
+}
+.registration__right_title {
+  margin-bottom: 22px;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration__right_text {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 21px;
+}
+.registration__right_bonus {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.registration__right_bonus-text {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration__right_bonus-text svg {
+  margin-right: 23px;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,0 +1,144 @@
+.registration {
+  padding-top: 64px;
+  display: flex;
+  gap: 128px;
+
+
+  &__left {
+
+
+    &_title {
+      color: #222;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      margin-bottom: 20px;
+    }
+
+    &_input {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      &-item {
+        width: 360px;
+        color: #222;
+        font-family: Lato;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding: 15px 15px;
+        border: 1px solid #A4A4A4;
+
+        &::placeholder {
+          color: #B1B1B1;
+        }
+      }
+    }
+
+    &_gender {
+      margin-top: 31px;
+      margin-bottom: 33px;
+      color: #000;
+      font-family: Lato;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+
+      input {
+        vertical-align: middle;
+        margin: -2px 10px 0 0;
+      }
+
+      label {
+        margin-right: 20px;
+        font-family: Lato;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+    }
+
+    &_text {
+      color: #B1B1B1;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      margin-top: 16px;
+      margin-bottom: 39px;
+    }
+
+    &_button {
+      margin-bottom: 96px;
+      padding: 16px 29px;
+      color: #FFF;
+      font-family: Lato;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      background-color: $colorSelectSite;
+      border: 1px solid rgba(0, 0, 0, 0);
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background: none;
+        color: $colorSelectSite;
+        border: 1px solid $colorSelectSite;
+
+        path {
+          fill: #F16D7F;
+        }
+      }
+
+      &-svg {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  &__right {
+
+    &_title {
+      margin-bottom: 22px;
+      color: #000;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+
+    &_text {
+      color: #000;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      margin-bottom: 21px;
+    }
+
+    &_bonus {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      &-text {
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+        svg {
+          margin-right: 23px;
+        }
+      }
+    }
+  }
+}
