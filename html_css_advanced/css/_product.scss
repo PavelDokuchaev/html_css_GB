@@ -151,8 +151,48 @@
 }
 
 .band__product {
-  margin-bottom: 128px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   gap: 30px;
+  margin-bottom: 128px;
+
+  &-item {
+    background-color: #F8F8F8;
+    width: 360px;
+
+    &-img {
+      margin-bottom: 24px;
+    }
+
+    &-name {
+      margin-bottom: 13px;
+      color: #000;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-left: 16px;
+    }
+
+    &-text {
+      margin-bottom: 18px;
+      color: #5D5D5D;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      padding-left: 16px;
+      padding-right: 29px;
+    }
+
+    &-price {
+      margin-bottom: 20px;
+      color: $colorSelectSite;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-left: 16px;
+    }
+  }
 }

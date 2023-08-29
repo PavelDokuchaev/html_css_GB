@@ -1,5 +1,7 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
+  // main page
+
   .center {
     padding-left: calc(50% - 187.5px);
     padding-right: calc(50% - 187.5px);
@@ -163,5 +165,280 @@
 
   .left_footer {
     min-width: 251px;
+  }
+
+
+  // product
+
+  .display_none {
+    display: none;
+  }
+
+  .breadcrumbs {
+    padding-top: 24px;
+    padding-bottom: 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .product {
+    margin-bottom: 664px;
+
+    .product__content {
+
+      .content__left-arrow,
+      .content__right-arrow {
+        position: absolute;
+      }
+
+      .content__right-arrow {
+        right: 0;
+      }
+
+      .content__img {
+        margin-top: 85px;
+        margin-bottom: 85px;
+      }
+    }
+
+    .product__description {
+
+      top: 625px;
+
+      .desc__text {
+        width: 87%;
+      }
+
+      .desc__price {
+        margin-bottom: 32px;
+      }
+
+      .price__border {
+        margin-bottom: 49px;
+        width: 175px;
+      }
+
+      .product__filter {
+
+        .product__filter__link {
+          font-size: 10px;
+          margin-bottom: 45px;
+        }
+      }
+
+      .desc__button {
+        color: $colorSelectSite;
+        background-color: #FFF;
+        border: 1px solid $colorSelectSite;
+        padding: 15px 57px 9px 24px;
+        display: flex;
+        gap: 23px;
+        align-items: center;
+
+      }
+    }
+  }
+
+  .band__product {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    gap: 0;
+    margin-bottom: 64px;
+  }
+
+  .band__product-item {
+    margin-left: 7px;
+  }
+
+  // catalog
+
+  .main__filter {
+    height: 81px;
+    padding-top: 20px;
+
+    .filter {
+      padding-top: 13px;
+      width: 368px;
+
+      &__summary {
+        padding-left: 8px;
+      }
+
+      &__heading_dn {
+        display: none;
+      }
+
+      .filter_svg {
+        width: 37px;
+        height: 25px;
+      }
+    }
+
+    .sort {
+      gap: 23px;
+      margin-right: 8px;
+
+      &__details {
+        position: relative;
+      }
+
+      &__summary {
+        gap: 9px;
+      }
+
+      &__heading {
+        font-size: 12px;
+
+        &-mobile {
+          min-width: 95px;
+        }
+      }
+    }
+  }
+
+  .main {
+    margin-bottom: 147px;
+    margin-top: 15px;
+
+    .main__item {
+      margin-left: 8px;
+    }
+
+    &__pages {
+      top: 5195px;
+      left: 60px;
+    }
+  }
+
+  // cart
+
+  .postheader__heading {
+    padding-left: 103px;
+  }
+
+  .cartmain {
+    flex-direction: column;
+    gap: 48px;
+
+    &__left {
+      gap: 30px;
+
+      &-cards_item {
+        max-width: 358px;
+        max-height: 188px;
+        margin-left: 8px;
+      }
+
+      &-cards_item-img {
+        width: 144px;
+        height: 188px;
+      }
+
+      &-cards_item-desc {
+        gap: 26px;
+        padding: 13px 53px 38px 17px;
+      }
+
+      &-cards_item-desc-title {
+        font-size: 16px;
+        max-width: 144px;
+      }
+
+      &-cards_item-desc-textblock {
+        gap: 4px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      &-cards_item-desc-textblock-input {
+        max-width: 24px;
+        margin-left: 15px;
+        padding-left: 7px;
+        font-size: 10px;
+      }
+
+      &-cards_item-desc_button {
+        top: 17px;
+        right: 12px;
+
+        svg {
+          width: 10px;
+          height: 10px;
+        }
+      }
+
+      &-buttons {
+        justify-content: center;
+        gap: 9px;
+
+        &_btn {
+          padding: 9px 18px;
+          font-size: 12px;
+        }
+      }
+    }
+
+    &__right {
+      padding-left: 8px;
+
+      &_form-input {
+        width: 360px;
+      }
+
+      &_total {
+        width: 360px;
+      }
+    }
+
+  }
+
+  // registration
+
+  .postheader__heading {
+    padding-left: 103px;
+  }
+
+  .registration {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 8px;
+
+    &__left_button {
+      margin-bottom: 0;
+    }
+
+    &__right {
+
+      &_title {
+        margin-bottom: 16px;
+      }
+
+      &_text {
+        font-size: 16px;
+        width: 97%;
+      }
+
+      &_bonus {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 100px;
+
+        &-text {
+          font-size: 16px;
+
+          &_margin {
+            margin-left: 46px;
+          }
+        }
+      }
+    }
   }
 }

@@ -1,5 +1,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
+  // main page
+
   .center {
     padding-left: calc(50% - 368px);
     padding-right: calc(50% - 368px);
@@ -110,5 +112,94 @@
 
   .left_footer {
     min-width: 251px;
+  }
+
+  // product
+
+  .band__product {
+    gap: 16px;
+  }
+
+  .display_none {
+    display: none;
+  }
+
+  // catalog
+
+  .main {
+    gap: 16px;
+    margin-bottom: 147px;
+
+    &__pages {
+      top: 2735px;
+      left: 252px;
+    }
+
+    .display_none {
+      display: none;
+    }
+  }
+
+  // cart
+
+  .cartmain {
+    flex-direction: column;
+    gap: 64px;
+    margin-top: 59px;
+    margin-bottom: 147px;
+
+    &__left {
+      gap: 62px;
+    }
+
+    &__right {
+      flex-direction: row;
+      gap: 15px;
+    }
+  }
+
+  .cartmain__left-cards_item-desc {
+    padding-right: 179px;
+  }
+
+  .cartmain__left-buttons {
+    justify-content: center;
+    gap: 48px;
+  }
+
+  .cartmain__right_form-input {
+    width: 360px;
+  }
+
+  // registration
+
+  .registration {
+    padding-top: 40px;
+    gap: 22px;
+
+    &__right {
+
+      &_title {
+        margin-bottom: 16px;
+      }
+
+      &_text {
+        font-size: 16px;
+      }
+
+      &_bonus {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        &-text {
+          font-size: 16px;
+
+          &_margin {
+            margin-left: 46px;
+          }
+        }
+      }
+    }
   }
 }
